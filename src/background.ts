@@ -24,10 +24,6 @@ const triggerErrorNotification = (error: ErrorType) => {
   chrome.notifications.create(options);
 };
 
-chrome.runtime.onInstalled.addListener(() => {
-  console.log('chrome.runtime.onInstalled');
-});
-
 chrome.action.onClicked.addListener(async (tab) => {
   if (tab && tab.id) {
     chrome.tabs.sendMessage(tab.id, { text: MessageType.FETCH_ETHERSCAN_MESSAGE }, function (response: ResponseData) {
