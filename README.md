@@ -21,15 +21,18 @@ I wanted an easy and quick solution to open it with just a keyboard shortcuts, s
 ## Supported Block Explorer websites and blockchains
 
 - [etherscan.io](https://etherscan.io/) + [etherscan.com](https://etherscan.com/) (Ethereum Mainnet)
-- [goerli.etherscan.io](https://goerli.etherscan.io/) (Ethereum Goerli Testnet)
+- [sepolia.etherscan.io](https://sepolia.etherscan.io/) (Ethereum Sepolia Testnet)
+- [holesky.etherscan.io](https://holesky.etherscan.io/) (Ethereum Holesky Testnet)
 - [bscscan.com](https://bscscan.com/) (Binance Smart Chain)
 - [testnet.bscscan.com](https://testnet.bscscan.com/) (Binance Smart Chain Testnet)
 - [ftmscan.com](https://ftmscan.com/) (Fantom Testnet)
 - [testnet.ftmscan.com](https://testnet.ftmscan.com/) (Fantom Testnet)
 - [optimistic.etherscan.io](https://optimistic.etherscan.io/) (Optimism)
+- [sepolia-optimistic.etherscan.io](https://sepolia-optimistic.etherscan.io/) (Optimism Sepolia Testnet)
 - [polygonscan.com](https://polygonscan.com/) (Polygon)
 - [mumbai.polygonscan.com](https://mumbai.polygonscan.com/) (Polygon Mumbai Testnet)
 - [arbiscan.io](https://arbiscan.io/) (Arbitrum)
+- [sepolia.arbiscan.io](https://sepolia.arbiscan.io/) (Arbitrum Sepolia Testnet)
 - [snowtrace.io](https://snowtrace.io/) (Avalance)
 - [testnet.snowtrace.io](https://testnet.snowtrace.io/) (Avalance Fuji Testnet)
 - [cronoscan.com](https://cronoscan.com/) (Cronos Mainnet)
@@ -37,6 +40,8 @@ I wanted an easy and quick solution to open it with just a keyboard shortcuts, s
 - [sepolia.basescan.org](https://sepolia.basescan.org/) (Base Sepolia Testnet)
 - [fraxscan.com](https://fraxscan.com/) (Fraxtal)
 - [holesky.fraxscan.com](https://holesky.fraxscan.com/) (Fraxtal Holesky Testnet)
+- [blastscan.io](https://blastscan.io/) (Blast)
+- [sepolia.blastscan.io](https://sepolia.blastscan.io/) (Blast Sepolia Testnet)
 
 ## Disclosures
 

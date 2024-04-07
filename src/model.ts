@@ -49,16 +49,16 @@ export const SUPPORTED_WEBSITES: SupportedWebsite[] = [
     ide: { dethcode: 'etherscan' },
   },
   {
-    chainId: 5,
-    name: 'Ethereum Goerli Testnet',
-    hostnames: ['goerli.etherscan.io'],
-    ide: { dethcode: 'goerli.etherscan' },
-  },
-  {
     chainId: 11155111,
     name: 'Ethereum Sepolia Testnet',
     hostnames: ['sepolia.etherscan.io'],
     ide: { dethcode: 'sepolia.etherscan' },
+  },
+  {
+    chainId: 17000,
+    name: 'Ethereum Holesky Testnet',
+    hostnames: ['holesky.etherscan.io'],
+    ide: { dethcode: 'holesky.etherscan' },
   },
   {
     chainId: 56,
@@ -91,6 +91,12 @@ export const SUPPORTED_WEBSITES: SupportedWebsite[] = [
     ide: { dethcode: 'optimistic.etherscan' },
   },
   {
+    chainId: 11155420,
+    name: 'Optimism Sepolia Testnet',
+    hostnames: ['sepolia-optimistic.etherscan.io'],
+    ide: { dethcode: 'sepolia-optimistic.etherscan' },
+  },
+  {
     chainId: 137,
     name: 'Polygon',
     hostnames: ['polygonscan.com'],
@@ -107,6 +113,12 @@ export const SUPPORTED_WEBSITES: SupportedWebsite[] = [
     name: 'Arbitrum',
     hostnames: ['arbiscan.io'],
     ide: { dethcode: 'arbiscan' },
+  },
+  {
+    chainId: 421614,
+    name: 'Arbitrum Sepolia Testnet',
+    hostnames: ['sepolia.arbiscan.io'],
+    ide: { dethcode: 'sepolia.arbiscan' },
   },
   {
     chainId: 43114,
@@ -149,5 +161,17 @@ export const SUPPORTED_WEBSITES: SupportedWebsite[] = [
     name: 'Fraxtal Holesky Testnet',
     hostnames: ['holesky.fraxscan.com'],
     ide: { dethcode: 'holesky.fraxscan' },
+  },
+  {
+    chainId: 238,
+    name: 'Blast',
+    hostnames: ['blastscan.io'],
+    ide: { dethcode: 'blastscan' },
+  },
+  {
+    chainId: 168587773,
+    name: 'Blast Sepolia Testnet',
+    hostnames: ['sepolia.blastscan.io'],
+    ide: { dethcode: 'sepolia.blastscan' },
   },
 ];

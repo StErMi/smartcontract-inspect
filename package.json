@@ -1,6 +1,6 @@
 {
   "name": "smartcontract-inspector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly open your favorite Web IDE to review the selected smart contract codebase",
   "main": "index.js",
   "scripts": {
