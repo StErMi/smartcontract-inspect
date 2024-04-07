@@ -28,6 +28,7 @@ I wanted an easy and quick solution to open it with just a keyboard shortcuts, s
 - [ftmscan.com](https://ftmscan.com/) (Fantom Testnet)
 - [testnet.ftmscan.com](https://testnet.ftmscan.com/) (Fantom Testnet)
 - [optimistic.etherscan.io](https://optimistic.etherscan.io/) (Optimism)
+- [sepolia-optimistic.etherscan.io](https://sepolia-optimistic.etherscan.io/) (Optimism Sepolia Testnet)
 - [polygonscan.com](https://polygonscan.com/) (Polygon)
 - [mumbai.polygonscan.com](https://mumbai.polygonscan.com/) (Polygon Mumbai Testnet)
 - [arbiscan.io](https://arbiscan.io/) (Arbitrum)

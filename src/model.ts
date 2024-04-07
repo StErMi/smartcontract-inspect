@@ -91,6 +91,12 @@ export const SUPPORTED_WEBSITES: SupportedWebsite[] = [
     ide: { dethcode: 'optimistic.etherscan' },
   },
   {
+    chainId: 11155420,
+    name: 'Optimism Sepolia Testnet',
+    hostnames: ['sepolia-optimistic.etherscan.io'],
+    ide: { dethcode: 'sepolia-optimistic.etherscan' },
+  },
+  {
     chainId: 137,
     name: 'Polygon',
     hostnames: ['polygonscan.com'],
