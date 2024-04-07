@@ -21,6 +21,7 @@ I wanted an easy and quick solution to open it with just a keyboard shortcuts, s
 ## Supported Block Explorer websites and blockchains
 
 - [etherscan.io](https://etherscan.io/) + [etherscan.com](https://etherscan.com/) (Ethereum Mainnet)
+- [sepolia.etherscan.io](https://sepolia.etherscan.io/) (Ethereum Sepolia Testnet)
 - [bscscan.com](https://bscscan.com/) (Binance Smart Chain)
 - [testnet.bscscan.com](https://testnet.bscscan.com/) (Binance Smart Chain Testnet)
 - [ftmscan.com](https://ftmscan.com/) (Fantom Testnet)
