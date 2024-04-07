@@ -1,0 +1,62 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Contract Inspect",
+  "description": "Quickly open your favorite Web IDE to review the selected smart contract codebase",
+  "version": "1.0.0",
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.etherscan.io/*",
+        "*://*.etherscan.com/*",
+        "*://*.bscscan.com/*",
+        "*://*.ftmscan.com/*",
+        "*://*.polygonscan.com/*",
+        "*://*.arbiscan.io/*",
+        "*://*.snowtrace.io/*",
+        "*://*.cronoscan.com/*",
+        "*://*.basescan.org/*",
+        "*://*.fraxscan.com/*"
+      ],
+      "js": ["js/content_script.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "permissions": ["activeTab", "notifications"],
+  "host_permissions": [
+    "*://*.etherscan.io/*",
+    "*://*.etherscan.com/*",
+    "*://*.bscscan.com/*",
+    "*://*.ftmscan.com/*",
+    "*://*.polygonscan.com/*",
+    "*://*.arbiscan.io/*",
+    "*://*.snowtrace.io/*",
+    "*://*.cronoscan.com/*",
+    "*://*.basescan.org/*",
+    "*://*.fraxscan.com/*"
+  ],
+  "commands": {
+    "_execute_action": {
+      "description": "Quickly open your favorite Web IDE to review the selected smart contract codebase",
+      "suggested_key": {
+        "default": "Ctrl+Period",
+        "mac": "Command+Period"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "smartcontract-inspector",
+  "version": "1.0.0",
+  "description": "Quickly open your favorite Web IDE to review the selected smart contract codebase",
+  "main": "index.js",
+  "scripts": {
+    "watch": "rimraf dist && webpack --config webpack/webpack.dev.js --watch",
+    "build": "rimraf dist && webpack --config webpack/webpack.prod.js",
+    "clean": "rimraf dist",
+    "style": "prettier --write \"src/**/*.{ts,tsx}\""
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StErMi/smartcontract-inspector.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chrome": "0.0.158",
+    "copy-webpack-plugin": "^9.0.1",
+    "glob": "^7.1.6",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2 ",
+    "ts-loader": "^8.0.0",
+    "typescript": "^5.0.4",
+    "webpack": "^5.76.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-merge": "^5.0.0"
+  }
+}
