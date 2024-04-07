@@ -162,4 +162,16 @@ export const SUPPORTED_WEBSITES: SupportedWebsite[] = [
     hostnames: ['holesky.fraxscan.com'],
     ide: { dethcode: 'holesky.fraxscan' },
   },
+  {
+    chainId: 238,
+    name: 'Blast',
+    hostnames: ['blastscan.io'],
+    ide: { dethcode: 'blastscan' },
+  },
+  {
+    chainId: 168587773,
+    name: 'Blast Sepolia Testnet',
+    hostnames: ['sepolia.blastscan.io'],
+    ide: { dethcode: 'sepolia.blastscan' },
+  },
 ];

@@ -40,6 +40,8 @@ I wanted an easy and quick solution to open it with just a keyboard shortcuts, s
 - [sepolia.basescan.org](https://sepolia.basescan.org/) (Base Sepolia Testnet)
 - [fraxscan.com](https://fraxscan.com/) (Fraxtal)
 - [holesky.fraxscan.com](https://holesky.fraxscan.com/) (Fraxtal Holesky Testnet)
+- [blastscan.io](https://blastscan.io/) (Blast)
+- [sepolia.blastscan.io](https://sepolia.blastscan.io/) (Blast Sepolia Testnet)
 
 ## Disclosures
 
