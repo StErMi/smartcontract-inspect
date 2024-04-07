@@ -115,6 +115,12 @@ export const SUPPORTED_WEBSITES: SupportedWebsite[] = [
     ide: { dethcode: 'arbiscan' },
   },
   {
+    chainId: 421614,
+    name: 'Arbitrum Sepolia Testnet',
+    hostnames: ['sepolia.arbiscan.io'],
+    ide: { dethcode: 'sepolia.arbiscan' },
+  },
+  {
     chainId: 43114,
     name: 'Avalance',
     hostnames: ['snowtrace.io'],

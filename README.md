@@ -32,6 +32,7 @@ I wanted an easy and quick solution to open it with just a keyboard shortcuts, s
 - [polygonscan.com](https://polygonscan.com/) (Polygon)
 - [mumbai.polygonscan.com](https://mumbai.polygonscan.com/) (Polygon Mumbai Testnet)
 - [arbiscan.io](https://arbiscan.io/) (Arbitrum)
+- [sepolia.arbiscan.io](https://sepolia.arbiscan.io/) (Arbitrum Sepolia Testnet)
 - [snowtrace.io](https://snowtrace.io/) (Avalance)
 - [testnet.snowtrace.io](https://testnet.snowtrace.io/) (Avalance Fuji Testnet)
 - [cronoscan.com](https://cronoscan.com/) (Cronos Mainnet)
