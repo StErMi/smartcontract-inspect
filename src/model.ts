@@ -49,12 +49,6 @@ export const SUPPORTED_WEBSITES: SupportedWebsite[] = [
     ide: { dethcode: 'etherscan' },
   },
   {
-    chainId: 5,
-    name: 'Ethereum Goerli Testnet',
-    hostnames: ['goerli.etherscan.io'],
-    ide: { dethcode: 'goerli.etherscan' },
-  },
-  {
     chainId: 11155111,
     name: 'Ethereum Sepolia Testnet',
     hostnames: ['sepolia.etherscan.io'],
