@@ -7,9 +7,9 @@ const triggerErrorNotification = (error: ErrorType) => {
   } else if (error === ErrorType.SITE_NOT_SUPPORTED) {
     message = 'Etherscan/website not supported';
   } else if (error === ErrorType.SITE_CONTENT_MALFORMED) {
-    message = 'Website is for EOA or contract cannot be found';
+    message = 'Webpage is for EOA or contract cannot be found';
   } else if (error === ErrorType.WEBIDE_NOT_SUPPORTED) {
-    message = 'Selected WebIDE not supported for this website';
+    message = 'Selected Web IDE not supported for this website';
   } else {
     // error === ErrorType.CONTRACT_ADDRESS_CANNOT_PARSE
     message = 'Contract address cannot be parsed from URL';
