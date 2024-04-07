@@ -55,6 +55,12 @@ export const SUPPORTED_WEBSITES: SupportedWebsite[] = [
     ide: { dethcode: 'sepolia.etherscan' },
   },
   {
+    chainId: 17000,
+    name: 'Ethereum Holesky Testnet',
+    hostnames: ['holesky.etherscan.io'],
+    ide: { dethcode: 'holesky.etherscan' },
+  },
+  {
     chainId: 56,
     name: 'Binance Smart Chain',
     hostnames: ['bscscan.com'],
