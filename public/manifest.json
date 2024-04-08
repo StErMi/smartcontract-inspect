@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Smart Contract Inspect",
-  "description": "Quickly open your favorite Web IDE to review the selected smart contract codebase",
+  "description": "Inspect the source code of a Smart Contract with your preferred Web IDE with just one click (or keyboard shortcut)",
   "version": "1.0.1",
   "action": {
     "default_icon": {
@@ -54,7 +54,7 @@
   ],
   "commands": {
     "_execute_action": {
-      "description": "Quickly open your favorite Web IDE to review the selected smart contract codebase",
+      "description": "Inspect the source code of a Smart Contract with your preferred Web IDE with just one click (or keyboard shortcut)",
       "suggested_key": {
         "default": "Ctrl+Period",
         "mac": "Command+Period"

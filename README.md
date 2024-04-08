@@ -3,7 +3,7 @@
   <img src="docs/logo.png" width="200" alt="">
   <br />
   <h2 align="center">Smart Contract Inspector</h2>
-  <p align="center"><strong>One click (or keyboard shortcut) to Inspect the source code of a Smart Contract with your preferred Web IDE</strong></p>
+  <p align="center"><strong>Inspect the source code of a Smart Contract with your preferred Web IDE with just one click (or keyboard shortcut)</strong></p>
   <p>When you are in the detail page of a smart contract on one of the supported Etherscan domains, just click the Smart Contract Inspector icon or hit the <code>Cmd+Dot</code> keyboard shortcut to review the source code in your preferred Web IDE</p>
 </p>
 
