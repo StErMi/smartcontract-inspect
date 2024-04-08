@@ -1,7 +1,7 @@
 {
   "name": "smartcontract-inspector",
   "version": "1.0.1",
-  "description": "Quickly open your favorite Web IDE to review the selected smart contract codebase",
+  "description": "Inspect the source code of a Smart Contract with your preferred Web IDE with just one click (or keyboard shortcut)",
   "main": "index.js",
   "scripts": {
     "watch": "rimraf dist && webpack --config webpack/webpack.dev.js --watch",
